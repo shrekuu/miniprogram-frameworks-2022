@@ -1,0 +1,21 @@
+{
+  "name": "remax-ts",
+  "private": true,
+  "version": "1.0.0",
+  "description": "try remax with typescript",
+  "main": "index.js",
+  "keywords": [],
+  "author": "bond <shrekuu@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "build": "cross-env NODE_ENV=production remax build -t wechat"
+  },
+  "dependencies": {
+    "react": "^16.14.0",
+    "remax": "^2.9.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
